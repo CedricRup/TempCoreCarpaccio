@@ -35,7 +35,8 @@
     "defaultNamespace": "XCarpaccio"
   },
   
-  "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel --server.urls http://*:5000"
-  },
+    "commands": {
+      "web": "Microsoft.AspNet.Server.Kestrel --server.urls=http://*:60000"
+    }
+  
 }

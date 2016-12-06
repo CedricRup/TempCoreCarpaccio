@@ -4,7 +4,7 @@ namespace XCarpaccio.Models
 {
     public class QuoteResponse
     {
-        decimal quote {get;set;}
+        public decimal Quote {get;set;}
     }
 }
 
